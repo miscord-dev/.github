@@ -3,5 +3,11 @@
   "dependencyDashboard": false,
   "major": {
     "enabled": false
-  }
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
 }
